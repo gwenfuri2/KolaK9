@@ -8,7 +8,9 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #a60f2d;
+            position: fixed;
+            top: 0;
+              width: 100%;
           }
           
           li {
@@ -23,14 +25,22 @@
             text-decoration: none;
           }
           
-          li a:hover {
-            background-color: #4d4d4d;
-          }
-            </style>
+          li a:hover:not(.active) {
+                background-color: #4D4D4D;
+            }
+
+        .active {
+                 background-color: #A69C9C;
+                }
+            </style> 
+        
         <body>
             <header> <!--content wrap this defines what is the top of the page-->
                 <nav> <!--navigation bar-->
                     <ul><!--unordered list--> 
+                        <div class="bg-img">
+                            <div class="container">
+                              <div class="topnav">
                         <li><a href="./index.html" class="pageLink pageTitle">Kola's K9's</a></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="classesofferred.html">Classes Offerred</a></li>
@@ -60,10 +70,7 @@
             </section>
             <footer>
                 <h3>Kola's K9's</h3>
-                <ul>
-                    <li><img src= "https://github.com/gwenfuri2/KolaK9/blob/main/instagram.png?raw=true"></li> <!--PLEASE CHANGE THIS ADDRESS SO ITS NOT PULLING LOCAL!!!!!!!!!-->
-                    <li><img src= "https://github.com/gwenfuri2/KolaK9/blob/main/youtube%20logo.png?raw=true"></li> <!--PLEASE CHANGE THIS ADDRESS SO ITS NOT PULLING LOCAL!!!!!!!!!-->
-                </ul>
+                
             </footer>
             </body>
         </head>

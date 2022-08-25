@@ -1,4 +1,5 @@
-html{
+
+     html{
     background-color: antiquewhite;    
 }
 
@@ -7,6 +8,11 @@ html{
   font-family: Arial;
   color: #777
 }
+
+body {
+  margin: 0px 8px;
+}
+
 /*-------------------------------------------------------------nav tops------------------------------------------*/
     .bg-img {
         /* The image used */
@@ -25,8 +31,6 @@ html{
       
       /* Position the navbar container inside the image */
       .container {
-        position: absolute;
-        margin: 20px;
         width: auto;
         text-align: center;
       }
@@ -50,7 +54,7 @@ html{
       }
       
       .topnav a:hover {
-        background-color: #00FFFFF;
+        background-color: #00FFFF;
         color: black;
       }
       .main-nav{
@@ -62,6 +66,7 @@ html{
         margin: 0;
         padding: 0;
         overflow: hidden;
+        display: inline-block;
       }
       
       li {
